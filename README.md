@@ -1,15 +1,22 @@
-Timestamp Microservice API Project
+##Timestamp Microservice API Project
+By Brandon Roth
 
-This is an API project for [freeCodeCamp's Back End Development Certification](https://www.freecodecamp.com/challenges/timestamp-microservice) that will accept either a human readable date or a UNIX timestamp and return a JSON object with both formats. If the input does not conform to either format, it will return `null` for both values.
+For [freeCodeCamp Back End Development Certification](http://freecodecamp.com) - [API Project - Timestamp Microservice](https://www.freecodecamp.com/challenges/timestamp-microservice)
+
+It will accept either a human readable date or a UNIX timestamp and return a JSON object with both formats. If the input does not conform to either format, it will return `null` for both values.
 
 You can test it at blank.
 
-## Usage:
+### Usage:
 
+```
 /test
+```
+```
 /test
+```
 
-## Sample Output:
+### Sample Output:
 
 ```javascript
 {
@@ -23,5 +30,5 @@ You can test it at blank.
 }
 ```
 
-## Running this project
+### Running this project
 Simply launch it with node using `npm run start` or `node index.js`
