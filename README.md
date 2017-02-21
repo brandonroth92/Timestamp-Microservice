@@ -19,7 +19,7 @@ You can test it at blank.
 ```javascript
 {
   "unix": 1450137600,
-  "natural: "December 15, 2015"
+  "natural": "December 15, 2015"
 }
 ```
 
