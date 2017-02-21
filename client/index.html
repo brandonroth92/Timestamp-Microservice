@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Timestamp Microservice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="page-header">
+        <h1>API Project: Timestamp Microservice</h1>
+        <p>By Brandon Roth</p>
+      </div> <!-- page-header -->
+    
+      <div>
+        <h2>What is this?</h2>
+        <p>
+          This is an API project for freeCodeCamp's Back End Development Certification that will accept either a human readable date or a UNIX timestamp and return a JSON object with both formats. If the input does not conform to either format, it will return <code>null</code> for both values.
+        </p>
+        <h3>Usage:</h3>
+        <code>/December%2015,%202015</code><br>
+        <code>/1450137600</code>
+        
+        <h3>Example Output:</h3>
+        <code>{ "unix": 1450137600, "natural": "December 15, 2015" }</code><br>
+        <code>{ "unix": null, "natural": null }</code>
+      </div>
+      
+    </div> <!-- container -->  
+  </body>
+
+</html>

@@ -1,0 +1,15 @@
+{
+  "name": "timestamp_microservice",
+  "version": "1.0.0",
+  "description": "FCC Back End Web Develoment API Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brandon Roth",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "moment": "^2.17.1"
+  }
+}
